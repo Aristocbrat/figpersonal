@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gilroy-bold', sans-serif;
+}
+.headerbutton{
+    background: #473BF0;
+}
+.firstpagetexts{
+    width: 773px;   
+}
+.text3{
+    width: 25%;
+}
+.text-2{
+    width: 636px;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+}
+.firstpagebutton{
+    width: 260px;
+}
+.secondpage{
+    width: 100%;
+    background: #F4F7FA;   
+}
+.bitmap{
+    width: 170%;
+    height: 700px;
+}
+.listen{
+    width: 429px;
+    font-size: 44px;
+}
+.rentaltext{
+    width: 404px;
+}
+.secondpgeimage2{
+    width: 70%;
+}
+.thirdpage{
+    width: 100%;
+    background: #473BF0;
+}
+.left{
+    width: 60%;
+}
+.contentleft{
+    width: 400px;
+}
+.fourthpage{
+    width: 100%;
+    background-image: url(images/BG\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.firstpart{
+    width: 100%;
+}
+.comonthreads{
+    width: 400px;
+    font-size: 16px;
+}
+.earpods{
+    width: 100%;
+    height: 100%;
+}
+.leftear{
+    top: 40%;
+    left: 40%;
+    width: 120px;
+}
+.rightear{
+    width: 120px;
+    left: 46%;
+    top: 52%;
+}
+.cta{
+    width: 100%;
+}
+.footerimg{
+    width:70%;
+}
+
+
+@media (min-width:350px) and (max-width:992px) {
+    .firstpagetexts{
+        width: 100%;
+    }
+    .text1{
+        padding-left: 10%;
+        width: 100%;
+        font-size: 11px;
+    }
+    .text2{
+        width: 90%;
+        font-size: 11px;
+    }
+    .text3{
+        width: 100%;
+        padding: 6.5rem;
+    }
+    .firstpagebutton{
+        width: 100%;
+    } 
+    .bitmap{
+        margin-left: 55px;
+        padding-left: 20%;
+        width: 300%;
+        height: 100%;
+    }
+    .listen{
+        font-size: 15px;
+        padding-left: 15%;
+        width: 100%;
+    }
+    .rentaltext{
+        width: 100%;
+        padding-left: 8%;
+    }
+    .secondpgeimage2{
+        width: 40%;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .contentleft{
+        width: 60%;
+    }
+    .whitedude{
+        padding-left: 20%;
+        width: 80%;
+    }
+    .trendy{
+        width: 100%;
+        font-size: 9px;
+    }
+    .comonthreads{
+        font-size: 12px;
+    }
+    .earpods{
+        margin-top: 20%;
+        background-color: #161C2D;
+        width: 100%;
+        height: 40%;   
+    }
+    .leftear,.rightear{
+        width: 20%;
+    }
+    .fifthpage{
+        margin-top: 40%;
+    }
+   .footerimg{
+    width: 100%;
+   }
+}
