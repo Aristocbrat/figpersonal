@@ -11,6 +11,9 @@
 .headerbutton{
     background: #473BF0;
 }
+.nonstop{
+    width: 350px;
+}
 .firstpagetexts{
     width: 773px;   
 }
@@ -22,6 +25,9 @@
     font-size: 18px;
     letter-spacing: -0.2px;
 }
+.trendy{
+    width: 350px;
+}
 .firstpagebutton{
     width: 260px;
 }
@@ -30,7 +36,6 @@
     background: #F4F7FA;   
 }
 .bitmap{
-    width: 170%;
     height: 700px;
 }
 .listen{
@@ -92,27 +97,39 @@
     .firstpagetexts{
         width: 100%;
     }
-    .text1{
-        padding-left: 10%;
-        width: 100%;
-        font-size: 11px;
+    .nonstop{
+        margin-left: 10%;
+        font-size: 17px;
     }
+    /*  */
     .text2{
-        width: 90%;
-        font-size: 11px;
+    
+        margin-left: 14%;
+        font-size:14px;
     }
     .text3{
         width: 100%;
         padding: 6.5rem;
     }
+    .rentaltext{
+        margin-left: -3%;
+    }
     .firstpagebutton{
         width: 100%;
     } 
     .bitmap{
-        margin-left: 55px;
+        margin-left: 73%;
         padding-left: 20%;
-        width: 300%;
+        width: 200px;
         height: 100%;
+    }
+
+    .buds{
+        padding: 0 50px;
+        margin-left: -65%;
+        width: 200px;
+        height: 60px;
+        object-fit: fill;
     }
     .listen{
         font-size: 15px;
@@ -139,26 +156,25 @@
         padding-left: 20%;
         width: 80%;
     }
-    .trendy{
-        width: 100%;
-        font-size: 9px;
+    .trendy{  
+        font-size: 13px;
     }
     .comonthreads{
         font-size: 12px;
     }
     .earpods{
         margin-top: 20%;
-        background-color: #161C2D;
         width: 100%;
         height: 40%;   
     }
     .leftear,.rightear{
         width: 20%;
+        margin-top: -27%;
     }
     .fifthpage{
         margin-top: 40%;
     }
-   .footerimg{
-    width: 100%;
+   footer{
+     font-size: 10px;
    }
 }
