@@ -101,23 +101,34 @@
         margin-left: 10%;
         font-size: 17px;
     }
-    /*  */
+    .text-2{
+        margin: auto;
+        width: 90%;
+    }
     .text2{
-    
-        margin-left: 14%;
-        font-size:14px;
+        /* background: yellow; */
+        margin:0 auto;
+        width: 90%;
+        font-size:16px;
     }
     .text3{
+        /* background: #473BF0; */
         width: 100%;
         padding: 6.5rem;
     }
+    .secondpage,.thirdpage,.fourthpage{
+        width: 100%;
+    }
+
     .rentaltext{
         margin-left: -3%;
     }
     .firstpagebutton{
+        /* background: green; */
         width: 100%;
     } 
     .bitmap{
+        /* background: purple; */
         margin-left: 73%;
         padding-left: 20%;
         width: 200px;
@@ -132,19 +143,22 @@
         object-fit: fill;
     }
     .listen{
+        /* background: yellow; */
         font-size: 15px;
-        padding-left: 15%;
-        width: 100%;
+        width: 70%;
     }
     .rentaltext{
-        width: 100%;
-        padding-left: 8%;
+        /* background: #473BF0; */
+        width: 80%;
+        margin: 0 auto;
+        padding:0 8%;
     }
     .secondpgeimage2{
         width: 40%;
     }
     .left{
-        width: 100%;
+        /* background: yellow; */
+        width: 98%;
     }
     .right{
         width: 100%;
@@ -153,18 +167,25 @@
         width: 60%;
     }
     .whitedude{
+        /* background: red; */
         padding-left: 20%;
         width: 80%;
     }
-    .trendy{  
+    .trendy{ 
+        /* background: green; */
+        width: 60%; 
         font-size: 13px;
     }
     .comonthreads{
+
+        /* background: red; */
+        width: 60%;
         font-size: 12px;
     }
     .earpods{
-        margin-top: 20%;
-        width: 100%;
+        /* background: #F4F7FA; */
+        margin-top: 29%;
+        width: 90%;
         height: 40%;   
     }
     .leftear,.rightear{
@@ -172,7 +193,8 @@
         margin-top: -27%;
     }
     .fifthpage{
-        margin-top: 40%;
+        width: 98%;
+        margin-top: 30%;
     }
    footer{
      font-size: 10px;
